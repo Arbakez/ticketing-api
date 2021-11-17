@@ -1,4 +1,32 @@
-
+# COMMIT & PUSH UPDATES TO GITHUB:
+    git add .
+    git commit -am "Description of Project Changes"
+    git push origin
 
 # START VAGRANT: vagrant ssh
 # STOP VAGRANT: exit
+
+
+
+# ACTIVATE PYTHON VIRTUAL ENVIRONMENT:
+    source ~/ENV/bin/activate
+
+# DEACTIVATE PYTHON VIRTUAL ENVIRONMENT:
+    deactivate
+
+
+
+# START DJANGO PROJECT:
+    django-admin.py startproject ticketing_project .
+
+# START DJANGO API:
+    python manage.py startapp ticketing_api
+
+# ADD APPS TO YOUR PROJECT SETTINGS: 'INSTALLED_APPS'
+    rest_framework
+    rest_framework.authtoken
+    ticket_api [or similar "api reference"]
+
+
+# RUN TEST SERVER:
+    python manage.py runserver 0.0.0.0:8000
