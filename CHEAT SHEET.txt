@@ -1,0 +1,4 @@
+
+
+# START VAGRANT: vagrant ssh
+# STOP VAGRANT: exit
